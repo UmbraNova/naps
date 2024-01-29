@@ -1,7 +1,7 @@
-const navbar = document.getElementById("navbarCollapse")
+const searchInput = document.getElementById("search-input")
 
-document.getElementById("open-menu").addEventListener("click", function() {
-  navbar.classList.toggle("collapse")
-})
+
+
+
 
 
