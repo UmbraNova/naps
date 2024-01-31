@@ -17,28 +17,32 @@
       </div>
 
       <div class="m-auto" style="width: 33%;">
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="min-width: 150px;">
-            <button id="search-input" class="btn btn-outline-warning" type="submit">Search</button>
-          </form>
+        <div class="d-flex" role="search">
+            <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="min-width: 150px;">
+            <button id="search-btn" class="btn btn-outline-warning" type="submit">Search</button>
+        </div>
       </div>
 
       <div class="m-auto d-flex justify-content-end" style="width: 33%;">
         <button id="add-btn" class="btn btn-outline-warning" type="submit">Add</button>
       </div>
 
-        </div>
     </div>
 </nav>
 
 <main class="container">
   <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
-    <img class="me-3" src="/assets/#" alt="" width="48" height="38">
+    <img class="me-3" src="/assets/logo-square.png" alt="" width="40">
     <div class="lh-1">
       <h1 class="h6 mb-0 text-white lh-1">MyIT Help</h1>
       <small>Last update: 26.01.2024</small>
     </div>
   </div>
+
+  <div class="container" id="test">
+
+  </div>
+
 
   <div class="my-3 p-3 bg-body rounded shadow-sm">
     <h6 class="border-bottom pb-2 mb-0">Recent updates</h6>
@@ -106,6 +110,7 @@
   </div>
 </main>
 
-<script src="index.js"></script>
+<script src="data.js" type="module"></script>
+<script src="index.js" type="module"></script>
 </body>
 </html>
