@@ -18,10 +18,15 @@ export let data = {
         "tags": ["trimitere", "colet", "awb", "fan courier"],
         "instruction": [
             "deschide self AWB",
+            "<br>",
             "porneste y si apoi> 12323> 123213> click dreapta > install",
+            "<br>",
             "adauga agentia",
+            "<br>",
             "completeaza un numar de telefon ex 01033023032",
-            "https://web.whatsapp.com/",
+            "<br>",
+            "<a href='https://web.whatsapp.com/'>https://web.whatsapp.com/</a>",
+            "<br>",
             "trimis cu persoana de contact, nume si numar tel",
         ],
         "last update": "31/01/2024"
