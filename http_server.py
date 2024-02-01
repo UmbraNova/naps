@@ -1,7 +1,7 @@
 import http.server
 import socketserver
 import os
-
+import socket
 
 PORT = 8000
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -20,6 +20,13 @@ with socketserver.TCPServer(("", PORT), handler_object) as httpd:
     print("Server stopped.")
     httpd.server_close()
     print("Server closed.")
+
+
+hostname = socket.gethostname()
+ip_address = socket.gethostbyname(hostname)
+print(f"Hostname: {hostname}")
+print(f"IP Address: {ip_address}")
+
 
 # navigate to location
 # python http_server.py
