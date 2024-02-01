@@ -2,6 +2,12 @@ import { data } from "./data.js"
 
 
 const searchBtn = document.getElementById("search-btn")
+const addBtn = document.getElementById("add-btn")
+const addWindow = document.getElementById("add-window")
+
+addBtn.addEventListener("click", function() {
+
+})
 
 searchBtn.addEventListener("click", function() {
     renderResult(document.getElementById("search-input").value.toLowerCase())
