@@ -3,12 +3,12 @@ import socketserver
 import os
 
 
-PORT = 8000  # Feel free to use a different port
+PORT = 8000
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header('Access-Control-Allow-Origin', '*')
         super().end_headers()
-os.chdir('D:\MAIN\\naps-project')  # Replace with your directory path
+os.chdir('D:\MAIN\\naps-project')  # Replace Directory Path
 handler_object = MyHttpRequestHandler
 with socketserver.TCPServer(("", PORT), handler_object) as httpd:
     print(f"Serving at port {PORT}")
@@ -20,3 +20,7 @@ with socketserver.TCPServer(("", PORT), handler_object) as httpd:
     print("Server stopped.")
     httpd.server_close()
     print("Server closed.")
+
+# navigate to location
+# python http_server.py
+# in browser > xx.xx.xx.xx:port
