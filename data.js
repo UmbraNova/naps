@@ -4,14 +4,14 @@ export let data = {
         "tags": ["instalare", "unipass", "outlook", "email", "certificat", "criptare", "encryption"],
         "instruction": 
             `
-            acest text este temporar<br>
-            deschide x<br>
-            porneste y si apoi> 12323> 123213> click dreapta > install<br>
-            download v<br>
-            trust center<br>
-            <a href='https://web.whatsapp.com/'>https://web.whatsapp.com/</a><br>
-            trimis pe skype<br>
-            control quality<br>
+            acest text este temporar
+            deschide x
+            porneste y si apoi> 12323> 123213> click dreapta > install
+            download v
+            trust center
+            <a href='https://web.whatsapp.com/'>https://web.whatsapp.com/</a>
+            trimis pe skype
+            control quality
             `,
         "last update": "31/01/2024"
     },
@@ -20,12 +20,12 @@ export let data = {
         "tags": ["trimitere", "colet", "awb", "fan courier"],
         "instruction": 
             `
-            deschide self AWB<br>
-            porneste y si apoi> 12323> 123213> click dreapta > install<br>
-            adauga agentia<br>
-            completeaza un numar de telefon ex 01033023032<br>
-            <a href='https://web.whatsapp.com/'>https://web.whatsapp.com/</a><br>
-            trimis cu persoana de contact, nume si numar tel<br>
+            deschide self AWB
+            porneste y si apoi> 12323> 123213> click dreapta > install
+            adauga agentia
+            completeaza un numar de telefon ex 01033023032
+            <a href='https://web.whatsapp.com/'>https://web.whatsapp.com/</a>
+            trimis cu persoana de contact, nume si numar tel
             `,
         "last update": "31/01/2024"
     },
@@ -34,15 +34,15 @@ export let data = {
         "tags": ["instalare", "unipass", "outlook", "email", "certificat", "criptare", "encryption"],
         "instruction": 
             `
-            acest text este temporar<br>
-            deschide laptop<br>
-            porneste y si apoi > laptop > cutie > incarcator HP > MBAM <br>
-            JoinDomain CLEAN<br>
-            adaugat in domeniu<br>
-            criptat cu MBAM<br>
-            API<br>
-            impachetat<br>
-            facut AWB<br>
+            acest text este temporar
+            deschide laptop
+            porneste y si apoi > laptop > cutie > incarcator HP > MBAM
+            JoinDomain CLEAN
+            adaugat in domeniu
+            criptat cu MBAM
+            API
+            impachetat
+            facut AWB
             `,
         "last update": "31/01/2024"
     }

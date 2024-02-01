@@ -3,3 +3,67 @@
     color: green;
     width: 1000px;
 }
+/* dropdown START */
+p nav {
+    margin-bottom: -16px;
+}
+
+p nav span { 
+    max-height: 44px;
+    height: 44px;
+    /* background-color: #DCE1EB; looks good */
+    /* color: black; looks good */
+}
+
+p nav li {
+    height: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 26px;
+}
+
+li > button {width: 100%;}
+
+#people-in-group {
+    display: block;
+}
+
+span::after {
+    float: right;
+    content: "+";
+}
+
+#people-dropdown-menu {
+    background-color: #DCE1EB;
+    border-radius: var(--radius);
+    clear:both;
+    height:0px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+#on-touch {
+    height: 0px;
+    opacity: 0;
+    position: absolute;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--font-second-color);
+}
+
+.info-section {
+    text-align: start;
+    padding-left: 20px;
+}
+
+.info-section > li  {
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.2);
+}
+
+#on-touch:checked + #people-dropdown-menu {height: var(--total-height);}
+/* dropdown END */

@@ -29,7 +29,7 @@ document.addEventListener("keydown", (e) => {
     }
 })
 
-const mainConainer = document.getElementById("test")
+const mainContainer = document.getElementById("test")
 
 function renderResult(userInput) {
     let result = ""
@@ -41,15 +41,16 @@ function renderResult(userInput) {
             <div class="d-flex text-body-secondary pt-3">
             <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#${color}"></rect><text x="50%" y="50%" fill="#${color}" dy=".3em">32x32</text></svg>
             <p class="pb-3 mb-0 small lh-sm border-bottom">
-              <strong class="d-block text-gray-dark">${elem.title}</strong>
-              ${elem.instruction}
+              <strong for="gg" class="d-block text-gray-dark">${elem.title}</strong>
+              ${elem.instruction.replace(/\n/g, "<br>")}
+                
             </p>
             </div>
             `
         }
     }
 
-    mainConainer.innerHTML = result
+    mainContainer.innerHTML = result
 }
 
 function isInputInData(input, tags) {
